@@ -1,0 +1,25 @@
+name: Multi Env
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy_QA:
+  
+    runs-on: ubuntu-latest
+    environment: QA
+    steps:
+    - uses: actions/checkout@v4
+    
+  deploy_STG:
+    runs-on: ubuntu-latest
+    environment: STG
+    steps:
+    - uses: actions/checkout@v4
+    
+  deploy_PROD:
+    runs-on: ubuntu-latest
+    environment: PROD
+    steps:
+    - uses: actions/checkout@v4
+  
