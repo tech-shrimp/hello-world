@@ -20,3 +20,4 @@
 17. Github做开源贡献的基本流程
 18. 在IDE里面使用Git
 19. 在IDE里面使用Git2
+20. 在IDE里面使用Git3
